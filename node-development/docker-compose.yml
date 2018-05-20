@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
 
-  node:
+  node-dev:
     image: custom-node-alpine
     build: .
     
