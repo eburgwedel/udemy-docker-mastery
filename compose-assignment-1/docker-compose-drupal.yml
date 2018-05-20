@@ -3,8 +3,7 @@ version: '3'
 services:
 
   myDrupal:
-    image: custom-drupal
-    build: .
+    image: drupal
     ports:
       - 8080:80
     volumes:
@@ -15,9 +14,8 @@ services:
     depends_on:
       - myPostgres
 
-    
   myPostgres:
-    image: postgres:9.6
+    image: postgres
     restart: always
     environment:
       POSTGRES_PASSWORD: postgres

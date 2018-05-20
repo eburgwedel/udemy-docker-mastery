@@ -1,0 +1,17 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "Some Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eckart Burgwedel",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.17.1",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3",
+    "yargs": "^11.0.0"
+  }
+}
